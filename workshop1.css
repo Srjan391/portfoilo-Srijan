@@ -1,4 +1,4 @@
-.header{
+/* .header{
 	background-color: navy;
 	display: flex;
 	justify-content: space-between;
@@ -29,4 +29,100 @@ ul{
 }
 
 
+ */
 
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.About {
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px;
+}
+
+.Projects {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.Projects img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+.contact {
+	background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+.forms{
+	color: white;
+	text-align: center;
+    background-color: navy;
+	padding-top: 20px;
+
+}
+
+.forms h2{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    width: 250px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+button {
+	width: 100px;
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+	font-size: 18px;
+	margin-bottom: 20px;
+    border-radius: 4px;
+}
